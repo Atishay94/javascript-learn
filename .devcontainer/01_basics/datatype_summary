@@ -1,0 +1,23 @@
+/*   [Primitive Data type]
+    String , Number , Boolean, null , undefined , Symbol, BigInt
+
+*/
+
+const id1='1256'
+const id2=Symbol('1256')
+console.log(id1==id2);
+
+/*non-primitive data types
+        Arrays, object , Functions
+    
+*/
+
+let myObj={
+    age: 22,
+    name: "atishay", 
+}
+
+const myFunction = Function()
+    console.log("Hello world");
+
+console.log(typeof id1);
