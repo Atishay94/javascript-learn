@@ -26,11 +26,20 @@ const   jsUser = {
 // console.log(jsUser["name"]);
 
 
-console.log(typeof(jsUser.mySym11));
-console.log(jsUser["mySym12"]);
+//console.log(typeof(jsUser.mySym11));
+//console.log(jsUser["mySym12"]);
 
 jsUser.email = "atishaygoogle.com"// udate email value
 
-Object.freeze(jsUser)  // when it is use then the all objects values are freeze or not to be change
+//Object.freeze(jsUser)  // when it is use then the all objects values are freeze or not to be change
 jsUser.name = "ATISHAY JAIN"
-console.log(jsUser);
+//console.log(jsUser);
+
+jsUser.greeting = function(){
+    console.log("Hello js user")
+}
+jsUser.greetingTwo = function(){
+    console.log(`Hello js user , ${this.name}`) // convert string into backticks This is called interpulation
+}
+console.log(jsUser.greeting())
+console.log(jsUser.greetingTwo())
