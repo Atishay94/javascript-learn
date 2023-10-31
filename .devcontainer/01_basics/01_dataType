@@ -1,6 +1,6 @@
 "use strict" // treat all javaScript code as newer version
 
-// alert(3+3)  we are using nodejs , not as browser
+// alert(3+3) // we are using nodejs , not as browser
 // code are readable futurable 
 
 console.log(3+3)
