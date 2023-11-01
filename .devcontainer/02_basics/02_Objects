@@ -32,7 +32,7 @@ const   jsUser = {
 jsUser.email = "atishaygoogle.com"// udate email value
 
 //Object.freeze(jsUser)  // when it is use then the all objects values are freeze or not to be change
-jsUser.name = "ATISHAY JAIN"
+jsUser.name = "ATISHAY JAIN"  // change the name 
 //console.log(jsUser);
 
 jsUser.greeting = function(){
